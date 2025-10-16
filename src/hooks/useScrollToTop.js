@@ -1,19 +1,19 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export const useScrollToTop = () => {
-  const [showScrollTop,setShowScrollTop]=useState(false);
-  useEffect(()=>{
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  useEffect(() => {
     //add smooth scrolling to html element
-    document.documentElement.style.scrollBehavior='smooth';
-    const handleScroll =()=>{
-        setShowScrollTop(window.scrollY>400);
+    document.documentElement.style.scrollBehavior = 'smooth';
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400);
     };
-    window.addEventListener('scroll',handleScroll);
-    return  ()=>{
-        window.removeEventListener('scroll',handleScroll);
-        //clean up smooth scroll on unmount
-        document.documentElement.style.scrollBehavior='auto';
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      //clean up smooth scroll on unmount
+      document.documentElement.style.scrollBehavior = 'auto';
     }
-  },[]);
+  }, []);
   return showScrollTop;
 };
