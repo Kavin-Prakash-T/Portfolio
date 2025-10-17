@@ -4,13 +4,14 @@ export const heroData = {
     roles: [
         "Frontend Developer",
         "Problem Solver",
-        "Creative Coder"
+        "Creative Coder",
+        "Java Spring Boot Learner"
     ],
     description: "Crafting exceptional digital experiences with modern technologies. I specialize in building beautiful, functional, and user-friendly web applications that make a lasting impact.",
     stats: [
         { number: "1+", label: "Years Experience" },
         { number: "6+", label: "Projects Completed" },
-        { number: "100%", label: "Full Dedication" }
+        { number: "100%", label: "Dedication" }
     ],
     socialLinks: [
         {
@@ -27,6 +28,11 @@ export const heroData = {
             name: "Email",
             url: "mailto:tkavinprakash@gmail.com",
             icon: "Mail"
+        },
+        {
+            name: "Leetcode",
+            url: "https://leetcode.com/u/kavinprakasht14/",
+            icon: "Leetcode"
         }
     ],
     ctaButtons: [
