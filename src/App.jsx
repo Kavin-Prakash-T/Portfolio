@@ -1,3 +1,4 @@
+import { About } from "./components/About";
 import { Hero } from "./components/Hero";
 import { Navigation } from "./components/Navigation";
 import { useIntersectionObserver } from "./hooks/useIntersectionObserver";
@@ -10,6 +11,7 @@ const App = () => {
     <div className="min-h-screen bg-white text-black">
       <Navigation />
       <Hero hasAnimated={hasAnimated} />
+      <About hasAnimated={hasAnimated} />
     </div>
   )
 }
