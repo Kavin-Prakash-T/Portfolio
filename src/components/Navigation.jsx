@@ -13,7 +13,7 @@ export const Navigation = () => {
         setIsMobileMenuOpen(false);
     };
 
-    const scrollToSection = () => {
+    const scrollToSection = (href) => {
         const element = document.querySelector(href);
         if (element) {
             const navHeight = 60;
