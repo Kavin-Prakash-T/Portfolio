@@ -4,9 +4,9 @@ import { Github, ExternalLink } from 'lucide-react';
 const ProjectCard = ({ project }) => {
     return (
         <div className="group bg-white border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
-            <div className="h-48 flex items-center justify-center">
+            <div className="h-48 flex bg-gradient-to-r from-gray-100 t0-gray-200 items-center justify-center">
                 <div className="text-6xl font-bold text-gray-300">
-                    <img src={project.poster} alt={project.title.charAt(0)} />
+                    {project.title.charAt(0)}
                 </div>
             </div>
             <div className="flex flex-col p-6 flex-grow">
