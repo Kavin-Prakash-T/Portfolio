@@ -142,7 +142,7 @@ export const Hero = ({ hasAnimated }) => {
       {/*Floating Elements */}
       <div className="absolute top-20 left-10 w-4 h-4 rounded-full bg-blue-400 opacity-60 animate-float"></div>
       <div className="absolute top-40 right-20 w-6 h-6 rounded-full bg-purple-400 opacity-60 animate-float delay-1000"></div>
-      <div className="absolute botttom-20 left-10 w-3 h-3 rounded-full bg-green-400 opacity-60 animate-float delay-2000"></div>
+      <div className="absolute botttom-40 left-20 w-3 h-3 rounded-full bg-green-400 opacity-60 animate-float delay-2000"></div>
       <div className="absolute bottom-20 right-10 w-4 h-4 rounded-full bg-orange-400 opacity-60 animate-float delay-3000"></div>
     </section>
   )
