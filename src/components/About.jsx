@@ -6,7 +6,7 @@ export const About = ({ hasAnimated }) => {
         {
             icon: <Code className="w-8 h-8 mb-4 text-black" />,
             title: "Clean Code",
-            description: "Writing maintainable,scalable code following best practices"
+            description: "Writing maintainable, scalable code following best practices"
         },
         {
             icon: <Palette className="w-8 h-8 mb-4 text-black" />,
